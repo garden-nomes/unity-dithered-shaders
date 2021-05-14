@@ -3,12 +3,14 @@
 
 For per-material dithering, see
 [DitheredSurfaceShader.shader](https://github.com/garden-nomes/unity-dithered-shaders/blob/main/DitheredSurfaceShader.shader).
-You can even use a custom texture/bumpmap, although it'll only influence shading—not the final color.
-(This currently only works with a single light source.)
+(This currently only works with a single light source.) You can even use a custom texture/bumpmap, although it'll only
+influence shading—not the final color.
 
 To apply the dithered effect across the whole scene, attach
 [DitheredImageEffect.cs](https://github.com/garden-nomes/unity-dithered-shaders/blob/main/Runtime/DitheredImageEffect.cs)
 to your camera.
+
+For crunchier pixels, use in conjunction with the pixel-perfect camera component and tick the "upscale render texture" box.
 
 ---
 
