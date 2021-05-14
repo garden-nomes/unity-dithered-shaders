@@ -7,5 +7,5 @@ You can even use a custom texture/bumpmap, although it'll only influence shading
 (This currently only works with a single light source.)
 
 To apply the dithered effect across the whole scene, attach
-(DitheredImageEffect.cs)[https://github.com/garden-nomes/unity-dithered-shaders/blob/main/Runtime/DitheredImageEffect.cs]
+[DitheredImageEffect.cs](https://github.com/garden-nomes/unity-dithered-shaders/blob/main/Runtime/DitheredImageEffect.cs)
 to your camera.
